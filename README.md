@@ -2,7 +2,15 @@
 
 A local payment-company architecture prototype with separate customer, payment, admin, and API route surfaces. Payments are simulated and no card data is accepted or stored.
 
-## Problem and objective
+## Assignment deliverable
+
+The completed architecture report is available at [`docs/Secure_Multi_Domain_Payment_Company_Architecture.docx`](docs/Secure_Multi_Domain_Payment_Company_Architecture.docx).
+
+The report answers the secure multi-domain payment company assignment. It defines five applications with separate business purposes and documents each application's users, features, data, frontend, backend, database, and hosting. It also covers defense in depth, least privilege, Zero Trust, authentication, authorization, network segmentation, threat mitigations, a phased implementation roadmap, and a requirement crosswalk.
+
+The architecture in the report is a proposed target design. The Flask application in this repository is a small local demonstration of selected security concepts; it is not the five independently deployed applications described in the report and does not provide real payment processing or production infrastructure isolation.
+
+## Prototype objective
 
 Payment companies operate several applications that handle different identities and privileges. This project demonstrates role checks, password hashing, CSRF, session boundaries, input validation, an auditable double-entry ledger, and safe payment simulation.
 
