@@ -17,7 +17,7 @@ Payment companies operate several applications that handle different identities 
 
 ## Technology
 
-Python 3.10+, Flask, Flask-Session, Flask-WTF, SQLite.
+Python 3.10+, Flask (Werkzeug is included), SQLite.
 
 ## Setup and run
 
